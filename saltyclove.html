@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+  Name: Devan Enhelder
+  Date Created: 4/2/20
+  Most recent revision: 5/1/2020
+  Restaurant Project
+-->
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Alert message to user to enable JavaScript-->
+    <noscript type="text/javascript">JavaScript is off. Please enable to view full site.</noscript>
+
+    <title>The Salty Clove: Home</title>
+
+    <script type="text/javascript" src="saltyClove.js"></script>
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/download/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .saltyHome {
+          background-color: #faf3dd;
+          padding-bottom: 60px;
+          padding-top: 20px;
+          padding-left: 20px;
+        }
+        h2 {
+          color: #dd6e42;
+          font-weight: bold;
+        }
+        img {
+          margin-bottom: 50px;
+          margin-top: 50px;
+        }
+        .text-right {
+          color: #494741;
+        }
+        .d-block {
+          margin-left: 50px;
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="row">
+        <h1 class="saltyHeader col-md-12">The Salty Clove</h1>
+        <hr>
+      </div>
+
+    <!--Announcement to appear in header-->
+    <div class="announcements row">
+        <h3 class="newLocation">New St. Paul location!</h3>
+    </div>
+    </header>
+
+
+    <!--Navigation Menu-->
+    <nav class="nav nav-pills">
+      <a class="btn active" href="saltyclove.html" class="nav-item nav-link"><span style="margin-right: 10px;"></span><i class="fa fa-fw fa-home"></i>Home</a>
+      <a class="btn" href="menu.html" class="nav-item nav-link">Menu</a>
+      <a class="btn" href="contact-us.html" class="nav-item nav-link">Contact</a>
+    </nav>
+
+    <!--Carousel slideshow-->
+    <div class="row"> <!--div for saltyHome page carousel and about us-->
+      <div style="background-color: #faf3dd;" class="col-lg-6">
+        <div id="saltyCarousel" class="carouselSize carousel slide" data-ride="carousel">
+          <!--Carousel slide 1-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="photos/newLocation.jpg" alt="New Location"></img>
+              <div class="carousel-caption">
+                <h3 class="carouselCaption">We're Expanding</h3>
+                <p class="carouselCaption">New site in St. Paul now open!</p>
+              </div>
+            </div>
+            <!--Carousel slide 2-->
+            <div class="carousel-item">
+              <img class="d-block w-100" src="photos/mocktail.jpg" alt="Drink of the month"></img>
+              <div class="carousel-caption">
+                <h3 class="carouselCaption">Drink of the Month</h3>
+                <p class="carouselCaption">Summery mocktail</p>
+              </div>
+            </div>
+            <!--Carousel slide 3-->
+            <div class="carousel-item">
+              <img class="d-block w-100" src="photos/salad.jpg" alt="Seasonal Menu"></img>
+              <div class="carousel-caption">
+                <h3 class="carouselCaption">Seasonal Menu</h3>
+                <p class="carouselCaption">Featuring fresh items daily</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--About Us Section-->
+      <div class="saltyHome col-lg-6">
+        <a href="saltyclove.html"><img src="photos/herbs.jpg" class="img-fluid rounded" width: 100% \9; alt="Photo of herbs drying"></img></a>
+        <!--the "width: 100% \9;" is for sizing issues in Internet Explorer 10-->
+        <h2>About Us</h2>
+          <p class="about">Located in the quaint neighborhood of Northeast Minneapolis, The Salty
+          Clove is a farm-to-table dining experience designed to bring that small
+          farm feel to the city. We offer a seasonal menu featuring fresh foods from
+          our urban farm in addition to a few farms located in the Greater-Minneapolis
+          area.</p>
+          <p class="aboutBottom">You can expect deliciously fresh meals prepared for meat-eaters and vegheads
+          alike. If you don't see something on the menu for you, ask us and we are
+          more than happy to accomodate. We hope that our little corner of Northeast
+          can be a favorite for everyone!</p>
+      </div>
+    </div>
+
+    <footer>
+      <p class="footer">1234 University Ave Northeast
+        Minneapolis, MN 55418</p>
+      <p class="footer">651-123-4567</p>
+      <p class="footer">&copy; 2020 The Salty Clove. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous">
+    </script>
+
+    </body>
+</html>

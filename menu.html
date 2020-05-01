@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!--
+    Name: Devan Enhelder
+    Date Created: 4/2/20
+    Most recent revision: 5/1/2020
+    Restaurant Project
+-->
+<html lang="eng">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Alert message to user to enable JavaScript-->
+    <noscript type="text/javascript">JavaScript is off. Please enable to view full site.</noscript>
+
+    <title>The Salty Clove: Menu</title>
+
+    <script type="text/javascript" src="saltyClove.js"></script>
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/download/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      .saltyMenu {
+        background-color: #faf3dd;
+        color: #595959;
+        padding: 30px 30px 40px 50px;
+      }
+      hr {
+        border-bottom: 0.5px solid #dd6e42;
+        width: 60%;
+        margin-bottom: 25px;
+      }
+      h2 {
+        color: #808f85;
+        font-weight: bold;
+      }
+      table {
+        border: 1px solid black;
+      }
+      .bevType {
+        padding: 10px 400px 10px 10px;
+        font-size: 14px;
+      }
+      .bevPrice {
+        padding-right: 50px;
+      }
+      th {
+        background-color: #faf3dd;
+        padding:10px 0px 10px 10px;
+        font-size: 14px;
+      }
+      tr:nth-child(odd) {
+        background-color: #c8d5b9;
+      }
+      .menus, h2 {
+        text-align: center;
+      }
+      .menus {
+        font-size: 40px;
+        font-weight: bolder;
+        padding-top: 10px;
+      }
+      h2 {
+        font-size: 25px;
+      }
+      .menu, .lastItem, tr, td {
+        font-size: 18px;
+      }
+      .menu, .lastItem {
+        margin: auto;
+      }
+      .menus {
+        color: #dd6e42;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="row">
+        <h1 class="saltyHeader col-md-12">The Salty Clove</h1>
+      </div>
+
+      <!--Announcements to appear in header-->
+      <div class="announcements row">
+        <h3 class="newLocation">New St. Paul location!</h3>
+      </div>
+    </header>
+
+    <!--Navigation Menu-->
+    <nav class="nav nav-pills">
+      <a class="btn" href="saltyclove.html" class="nav-item nav-link"><span style="margin-right: 10px;"</span><i class="fa fa-fw fa-home"></i>Home</a>
+      <a class="btn active" href="menu.html" class="nav-item nav-link">Menu</a>
+      <a class="btn" href="contact-us.html" class="nav-item nav-link">Contact</a>
+    </nav>
+
+    <div class="saltyMenu container-fluid">
+      <h1 class="menus">Menu</h1>
+      <hr>
+      <!--Menu top row-->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2><b>Little Chevre Salad</b></h2>
+          <p class="menu">Spring mix salad topped with fresh berries,
+          goat cheese crumbles, candied nuts, and a house made balsamic vinaigrette.<br />
+          <i>$12.95</i></p>
+        </div>
+        <div class="col-lg-4">
+          <h2><b>Balsamic Brussels</b></h2>
+          <p class="menu">Oven roasted brussels sprouts marinated in a fig
+          infused balsamic glaze, EVOO, salt, and pepper.<br />
+          <i>$10.95</i></p>
+        </div>
+        <div class="col-lg-4">
+          <h2><b>Hot Wings</b></h2>
+          <p class="menu">Your choice of 6 or 12 wings smothering in our spicy secret sauce and
+             a side of bleu cheese. Vegan option available.<br />
+          <i>$13.95</i></p>
+        </div>
+      </div>
+      <!--Menu bottom row-->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2><b>Polish Sausage</b></h2>
+          <p class="menu">Your choice of regular or cheddar jalepeno. Served with
+          fries. Substitute seasonal vegetables for $2.00.<br />
+          <i>$8.95</i></p>
+        </div>
+        <div class="col-lg-4">
+          <h2><b>Roasted Chicken</b></h2>
+          <p class="menu">1/4, 1/2, or whole bird. Served with potatoes and your
+          choice of seasonal vegetables or mac and cheese.<br />
+          <i>$18.95</i></p>
+        </div>
+        <div class="col-lg-4">
+          <h2><b>Farm Fresh Pizza</b></h2>
+          <p class="lastItem">Hand tossed pizza with out garden fresh marinara, mozarella,
+            and basil. Veggie add-ons available.<br />
+          <i>$15.95</i></p>
+        </div>
+      </div>
+    <br>
+
+    <!--Beverage Menu-->
+      <div class="row">
+          <table align="center">
+            <thead>
+              <tr>
+                <th>Beverages</th>
+                <!--blank column to complete table-->
+                <!--there's prob a better way to do this, will come back to this-->
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="bevType">Root Beer</td>
+                <td class="bevPrice">$3.00</td>
+              </tr>
+              <tr>
+                <td class="bevType">Bottle Water</td>
+                <td class="bevPrice">$1.25
+              </tr>
+              <tr>
+                <td class="bevType">Lemonade</td>
+                <td class="bevPrice">$1.00</td>
+              </tr>
+              <tr>
+                <td class="bevType">Iced Tea</td>
+                <td class="bevPrice">$1.25</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div><!--Closes out menu container-->
+
+    <footer>
+      <p>1234 University Ave Northeast
+        Minneapolis, MN 55418</p>
+      <p>651-123-4567</p>
+      <p>&copy; 2020 The Salty Clove. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous">
+    </script>
+
+    </body>
+</html>

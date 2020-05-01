@@ -1,0 +1,59 @@
+/*
+  Name: Devan Enhelder
+  Date created: 4/20/2020
+  Date last modified: 5/1/2020
+  Restaurant Project
+*/
+
+header, footer {
+  background-color: #808f85;
+  color: #faf3dd;
+  margin:0px;
+  text-align: center;
+  font-family: Verdana, "Geneva", sans-serif;
+  box-sizing: content-box;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+
+  .announcements, .newLocation {
+  background-color: #808f85;
+  color: #faf3dd;
+  padding-left: 500px;
+  font-weight: bolder;
+}
+
+.saltyHeader {
+  font-size: 5em;
+  margin: 0 auto;
+  padding-top: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.nav-pills, .btn {
+  background-color: #808f85;
+  color: #faf3dd;
+  min-width: 300px;
+  font-size: 1.2em !important;
+  padding-top: 1px;
+  text-align: center;
+}
+
+
+.btn:hover, .active {
+  font-weight: bold;
+  background-color: #faf3dd;
+  color: #dd6e42;
+  border-bottom-right-radius: 0em !important;
+  border-bottom-left-radius: 0em !important;
+}
+
+.form-control {
+  width: 10%;
+}
+
+.carouselCaption{
+  color: #1d1d1d;
+  font-weight: bold;
+}
